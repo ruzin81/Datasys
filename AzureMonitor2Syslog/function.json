@@ -3,7 +3,7 @@
     {
       "type": "eventHubTrigger",
       "name": "records",
-      "datatype": "string"
+      "datatype": "string",
       "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
       "eventHubName": "sentinel",
       "consumerGroup": "$Default",
