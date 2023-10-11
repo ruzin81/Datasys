@@ -41,4 +41,4 @@ jobs:
           app-name: 'ConvertLogs2Syslog'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_76DB632C6AA743A1B6629A89ADE56038 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D13E4DF04FB349128E67C6AA00FB184E }}
