@@ -2,7 +2,8 @@
   "bindings": [
     {
       "type": "eventHubTrigger",
-      "name": "myEventHubMessage",
+      "name": "records",
+      "datatype": "string"
       "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
       "eventHubName": "sentinel",
       "consumerGroup": "$Default",
